@@ -143,7 +143,8 @@ class _HomeScreenState extends State<HomeScreen> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           const Padding(
-                            padding: EdgeInsets.only(top: 20, left: 20),
+                            padding: EdgeInsets.symmetric(
+                                horizontal: 20, vertical: 20),
                             child: Text(
                               "Application Language",
                               style: TextStyle(fontSize: 20),
